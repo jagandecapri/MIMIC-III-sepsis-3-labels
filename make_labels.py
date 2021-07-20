@@ -303,7 +303,7 @@ def parse_arg():
                         help="SQL user")
     parser.add_argument("-pw", "--sqlpass",
                         help="SQL user password. If none insert ''")
-    parser.add_argument("-h", "--host",
+    parser.add_argument("-ht", "--host",
                         help="SQL host")
     parser.add_argument("-db", "--dbname",
                         help="SQL database name")
